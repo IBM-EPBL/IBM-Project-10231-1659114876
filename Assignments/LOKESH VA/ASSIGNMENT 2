@@ -1,0 +1,12 @@
+Assignment _ 2:
+Temperature and humidity sensor code
+
+
+import random
+while True:
+    temp = random.randrange(80,180)
+    hum = random.random(0,100)
+    if temp > 150 or hum>50:
+        print("alarm on")
+    else:
+        print("alarm off")
